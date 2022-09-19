@@ -24,7 +24,8 @@ function createGrid(sz) {
 start.addEventListener('click', () =>{
     resizeGrid();
     size = window.prompt("Enter amount", "1-64");
-    while (size < 1 || size > 64) {
+    while (size < 1 || size > 64 || isNaN(size)) {
+        console.log(typeof size);
         size = window.prompt("Invalid size, must be 1-64:", "1-64");
     }
     createGrid(size);
