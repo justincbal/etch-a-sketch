@@ -42,5 +42,20 @@ color: #E94560;
     margin-top: 10px;
     height: 600px;
     width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    outline: black solid;
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.grid2 {
+    outline: black solid;
+    background-color: beige;
+    flex-direction: row;
+    flex: 1 1 auto;
 }
 
