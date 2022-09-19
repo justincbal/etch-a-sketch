@@ -1,3 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
-html {font-family: 'Bangers', cursive;}
+html {font-family: 'Bangers', cursive;
+background-color: #16213E;
+color: #E94560;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.title {
+    font-size: 72px;
+}
+
+.buttons {
+}
+
+.buttons button{
+    margin: 10px;
+    color: #E94560;
+    background-color: #0F3460;
+    border: #FF5F7E outset;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+    color: yellow;
+}
+
+.drawing-area {
+    outline: white solid;
+    background-color: white;
+    margin-top: 10px;
+    height: 600px;
+    width: 600px;
+}
+
